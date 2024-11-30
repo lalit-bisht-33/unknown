@@ -1,4 +1,4 @@
-import User from "../backend/models/User.model.js";
+import User from "../models/User.model.js";
 import jwt from "jsonwebtoken";
 import cookieParser from "cookie-parser";
 export const protectRoute = async (req, res, next) => {
